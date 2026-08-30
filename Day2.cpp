@@ -1,20 +1,40 @@
-#include <iostream>
+#include<iostream> 
+#include<string>
 using namespace std;
-
 int main() {
-    // Day 2 - Variables and Data Types
-    int age = 19;
-    string name = "First Year IT";
-    float cgpa = 8.5;
-    char grade = 'A';
     
-    cout << "Name: " << name << endl;
-    cout << "Age: " << age << endl;
-    cout << "CGPA: " << cgpa << endl;
-    cout << "Grade: " << grade << endl;
+   // day 2 learning cpp 
+ 
+ 
+ int t = 10;
+ string name = "kuldeep";
+string course = "btech_IT";
+    int roll_no = 15;
+    float cgpa = 9.2;
     
-    int a = 10, b = 20;
-    cout << "Sum: " << a + b << endl;
+    char section = 'x';
     
-    return 0;
+   cout << "name: " <<name<< endl;
+   cout << "course:  " <<course<< endl;
+   cout << "roll_no: "<<roll_no<< endl;
+   cout << "cgpa:"  <<cgpa<< endl;
+   cout << "section: "  <<section<< endl;
+   
+   int a = 66;
+   int b = 99;
+  cout << "sum:"  <<a+b<< "\n";
+  cout << "product:"   <<a*b<< "\n";
+  cout << "mean:" <<(a+b)/2<< endl;
+   cout << "substract:"  << a-b<< "\n";
+   return 0;
 }
+
+
+
+
+
+
+
+
+
+
