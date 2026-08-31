@@ -1,0 +1,46 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int glo = 0;
+
+
+
+void kuldeep(){ 
+
+//int glo = 72;
+int a = 11;
+cout << glo;
+}
+
+
+
+int main (){
+   
+   int glo = 12;
+   
+ // im kuldeep kumar //
+ 
+ 
+ 
+ char section= 'a';
+ int A = 154568840;
+ int B = 3345670;
+ bool is_true = true;
+    kuldeep();
+    cout <<glo<<'\n';
+    cout<< is_true<<'\n';
+    
+    
+    
+  
+/* cout<< "sum:" <<A+B<< "\n";
+ cout<<"product"<<A*B << "\n";
+ cout<<"substract"<< A-B<< "\n";
+ cout<< "divide" <<A/B<< "\n";
+ cout << "mean"<<(A+B)/2<< "\n";
+ cout<< "this is a value of "<<section;*/
+ cout <<glo<< endl;
+ return 0;
+}
+    
+    
