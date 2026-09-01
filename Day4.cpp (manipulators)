@@ -1,0 +1,61 @@
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+int main () {
+    
+    int a = 4;
+    cout<<"the value of a was: "<<a<<endl;
+    
+    a = 9;
+    
+    
+    cout<<"the value of a is : "<<a<<endl;
+    
+    
+  // kisi variable ki value change nhi krni ho to constant use hota h // 
+    
+    
+    //////////////////constant in c++//////////////////
+   
+  // const int A = 10;
+   //A = 100;
+   
+  // cout<<"the value of A : "<<A;
+   
+   
+   //manipulators//
+   
+   
+   /* 1:- endl; 
+   
+   
+   2:- setw(n) */
+   
+   int A = 3,B = 18 ,C= 187,D= 1845;
+   cout<<"value of A is : " <<A<< endl;
+    cout<<"value of B is : " <<B<< endl;
+    cout<<"value of C is : " <<C<< endl;
+    cout<<"value of D is : " <<D<< endl;
+   
+   
+   cout<<"the value of A is with setw :" <<setw(4)<<A<<endl;
+   
+   cout<<"the value of A is with setw :" <<setw(4)<<B<<endl;
+   
+   cout<<"the value of A is with setw :" <<setw(4)<<C<<endl;
+   
+   cout<<"the value of A is with setw :" <<setw(4)<<D<<endl;
+   
+   
+   
+   
+   
+    
+    
+    
+    return 0;
+    
+    
+}
+
