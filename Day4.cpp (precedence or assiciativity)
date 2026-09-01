@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+int main () {
+    
+    int a = 3,b=4;
+    int c = (a*5)+10;
+    cout<<c<<"\n";
+    
+    int C = ((((a*5)+b)-45)+87);
+    cout<<C;
+    
+    // opration precedence //
+   // :- yeh maths k bodmas ki trh h likewise programm m konsa opration phle use hoga//
+   /*
+Tu ye soch tere ghar me 2 kaam hai:
+1. Khana banana
+2. Bartan dhona
+
+Pehle kaunsa karega? Khana banana, kyuki wo zyada important hai.
+Yahi *Precedence* hai - kaunsa kaam zyada important hai.
+
+C++ me:
+`_ /` sabse important hai, isliye wo pehle hoga.
+`+ -` kam important hai, baad me hoga.
+
+`2 + 3 _ 4` me
+C++ pehle `3_4=12` karega, phir `2+12=14` karega.
+
+Ab *Associativity* -
+Maan le 2 same kaam hai, jaise 2 baar bartan dhona hai.
+Toh pehle kaunsa dhoyega? Left wala ya Right wala?
+
+C++ me:
+`10 - 5 - 2`
+Dono `-` same hai. C++ Left se shuru karta hai.
+Pehle `10-5=5`, phir `5-2=3`
+
+Bas itna hi hai.
+
+Tu ek kaam kar, ye 1 sawal solve karke bhej:
+
+`10 + 2 _ 5`
+*/
+
+
+    return 0;
+    
+}
+    
+    
