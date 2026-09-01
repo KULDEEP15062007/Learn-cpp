@@ -1,0 +1,63 @@
+#include <bits/stdc++.h>
+#include <iomanip
+using namespace std;
+
+int main() {
+    int n = 255;
+    double pi = 3.14159;
+    bool b = true;
+
+    cout << 10 << endl; // endl -> next line + flush
+
+    cout << 10 << ends; // ends -> \0 lagata hai
+
+    cout << "hi" << flush; // flush -> turant print karo
+
+    cin >> ws; // ws -> extra space/enter hatao
+
+    cout << boolalpha << b; // boolalpha -> true/false likhega
+    cout << noboolalpha << b; // noboolalpha -> 1/0 likhega
+
+    cout << showbase << hex << n; // showbase -> 0x ff dikhayega
+    cout << noshowbase << dec << n; // noshowbase -> base chupayega
+
+    cout << showpoint << 10.0; // showpoint -> 10.0000 dikhayega
+    cout << noshowpoint << 10.0; // noshowpoint -> 10 dikhayega
+
+    cout << showpos << 10; // showpos -> +10 dikhayega
+    cout << noshowpos << 10; // noshowpos -> 10 dikhayega
+
+    cout << uppercase << hex << n; // uppercase -> FF dikhayega
+    cout << nouppercase << dec << n; // nouppercase -> ff dikhayega
+
+    cout << left << setw(10) << n; // left -> left side chipkao
+    cout << right << setw(10) << n; // right -> right side chipkao
+    cout << internal << setw(10) << -10; // internal -> -       10
+
+    cout << fixed << pi; // fixed -> 3.14 jaisa fixed point
+    cout << scientific << pi; // scientific -> 3.14e+00
+    cout << defaultfloat << pi; // defaultfloat -> normal
+
+    cout << dec << n; // dec -> decimal 10 base
+    cout << hex << n; // hex -> hexadecimal 16 base
+    cout << oct << n; // oct -> octal 8 base
+
+    cout << skipws; // skipws -> input me space skip karo
+    cout << noskipws; // noskipws -> space skip mat karo
+
+    cout << unitbuf << "a"; // unitbuf -> har baar flush
+    cout << nounitbuf << "a"; // nounitbuf -> flush band
+
+    cout << setw(10) << n; // setw(10) -> width 10 ka banao
+
+    cout << setfill('*') << setw(10) << n; // setfill('*') -> ****10
+
+    cout << setprecision(2) << pi; // setprecision(2) -> 3.14
+
+    cout << setbase(16) << n; // setbase(16) -> hex me
+
+    cout << setiosflags(ios::showpos); // setiosflags -> flag on karo
+    cout << resetiosflags(ios::showpos); // resetiosflags -> flag off karo
+
+    return 0;
+}
