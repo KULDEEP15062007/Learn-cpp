@@ -1,0 +1,38 @@
+#inclue<iostream>
+using namespace std;
+int main () {
+///////////////////////*1. Simple if*
+if (paisa > 2000) {
+  cout << "Hogwarts Legacy kharido";
+}
+//////////////////////////*2. if-else*
+if (marks > 33) {
+  cout << "Pass";
+} else {
+  cout << "Fail";
+}
+//*3. Nested if*
+if (result == 1) {
+  if (marks > 33) {
+    cout << "Pass hai";
+  }
+}
+///////////////////////////*4. else-if Ladder*
+if (marks > 90) {
+  cout << "A";
+} else if (marks > 75) {
+  cout << "B";
+} else if (marks > 33) {
+  cout << "C";
+} else {
+  cout << "Fail";
+}
+////////////////////////////*5. switch-case*
+switch (choice) {
+  case 1: cout << "GTA"; break;
+  case 2: cout << "Minecraft"; break;
+  default: cout << "Galat choice";
+
+
+return 0;
+}
