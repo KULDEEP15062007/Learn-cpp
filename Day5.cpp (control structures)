@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+
+
+int main (){ 
+//control structure in cpp 
+/*control sturcture ka kam hota h programm ko flow dena or logic dena
+
+1.   sequence structure
+2.   selection structure
+3.   loop structure
+these are basic control structure.
+
+//////////////////sequence structure////////////////
+programm entry 
+-----> action 1-----> action 2--------> 
+then exit to programm
+*/
+    int a = 10;
+    int b = 20;
+    int sum = a + b; // pehle ye
+    cout << sum<<endl;     // fir ye
+    cout << "Khatam"<<endl; // fir ye
+
+  
+
+///////////////////selection structure////////////////////
+
+/*Real life example:
+
+Tu dukaan pe gaya:
+AGAR jeb me 500 rs hain TO burger khayega
+WARNA wapas aa jayega
+
+Yahi selection hai.*/
+int paise = 600;
+if (paise > 500) {
+    cout << "Burger khayenge"<<endl;
+}
+// Agar paise 500 se zyada hain tabhi ye line chalegi, warna skip
+
+// Agar paise 500 se zyada hain tabhi ye line chalegi, warna skip
+
+	
+	
+	
+	
+	return 0;
+	
+}
