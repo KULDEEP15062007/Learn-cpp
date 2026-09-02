@@ -1,0 +1,74 @@
+
+
+
+
+#include<iostream>
+using namespace std;
+int main (){
+/////////////////1. FOR LOOP - Sabka baap
+//Jab pata ho kitni baar chalana hai. DSA me 95% yahi lagega.
+for(int i=1; i<=5; i++) {
+   cout << i<<endl;
+}
+/*3 hisse:*
+- `int i=1` - Starting point
+- `i<=5` - Rukna kaha hai
+- `i++` - Har baar kya karna hai*/
+
+/*2. WHILE LOOP - Pehle sochega, fir karega
+Jab pata nahi kitni baar chalega, bas condition pata hai.*/
+int j=1;
+while(j<=5) {
+   cout << j<<endl;
+   j++;
+}
+/*Farq:* Agar starting me hi condition galat hai (jaise j=10), toh ek baar bhi nahi chalega.
+
+3. DO-WHILE LOOP - Pehle karega, fir sochega
+Ek baar toh pakka chalega.*/
+int k=10;
+do {
+   cout << k<<endl; // ye 10 print ho jayega
+   k++;
+} while(k<=5); // condition galat hai par ek baar chal gaya
+/*4. NESTED LOOP - Loop ke andar Loop
+Ye GATE me sabse important hai.*/
+for(int l=1; l<=3; l++) {      // Din
+  for(int m=1; m<=3; m++) {    // Har din 3 roti
+    cout << "Roti "<<endl;
+  }
+  cout << endl;
+}
+/*Output:
+Roti Roti Roti 
+Roti Roti Roti 
+Roti Roti Roti 
+5. 2 Important Buttons - break / continue
+
+`break` = Loop se bahar nikal ja, kaam khatam.*/
+for(int n=1; n<=5; n++){
+  if(n==3) break; // 3 aate hi band
+}
+ // Output: 1 2
+//`continue` = Ek baar skip kar de.
+for(int n=1; n<=5; n++){
+  if(n==3) continue; // 3 ko skip
+}
+ // Output: 1 2 4 5
+/*Yaad karne ka tarika:*
+- `for` = Gin ke kaam
+- `while` = Soch ke kaam
+- `do-while` = Karke soch
+- Nested = Matrix / Pattern ke liye
+
+Ab ek last test - Ye kya print karega?*/
+for(int i=1; i<=2; i++){
+  for(int j=1; j<=2; j++){
+    cout << "*"<<endl;
+  }
+}
+//Kitne star `*` aayenge?
+
+
+return 0;
+}
