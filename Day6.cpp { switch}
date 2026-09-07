@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std ;
+int main () {
+    
+    int age;
+    cout<<"tell me ur age "<<endl;
+    cin>>age;
+    
+    
+    
+    
+ switch  (age) {
+   case 18:
+   cout<<"uhhh are 18"<<endl;
+   break;
+   case  22:
+   cout<<"urr 22"<<endl;
+   break ;
+   case   33 :
+   cout<<"urr 33"<<endl;
+   break ;
+   default:
+    cout<<"no spacial cases\n";
+   
+}
+    
+    
+    return 0;
+}
