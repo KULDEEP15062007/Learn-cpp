@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int btaokitnekishoppingkihapne;
+    cout<<"btao kitne ki shopping ki h aapne\n";
+    cin>>btaokitnekishoppingkihapne;
+    
+    cout<<"aapke offers yehh dekhiye"<<endl;
+    cout<<"10000+ pe 33% discount"<<endl;
+    cout<<"7000+ pe 25% discount"<<endl;
+    cout<<"4000+ pe 13% discount"<<endl;
+
+    if(btaokitnekishoppingkihapne >= 10000){
+        cout<<"total amount "<< btaokitnekishoppingkihapne - (btaokitnekishoppingkihapne * 33 / 100);
+    }
+    else if(btaokitnekishoppingkihapne >= 7000){
+        cout<<"total amount "<< btaokitnekishoppingkihapne - (btaokitnekishoppingkihapne * 25 / 100);
+    }
+    else if(btaokitnekishoppingkihapne >= 4000){
+        cout<<"total amount "<< btaokitnekishoppingkihapne - (btaokitnekishoppingkihapne * 13 / 100);
+    }
+    else{
+        cout<<"no discount "<< btaokitnekishoppingkihapne;
+    }
+    
+    return 0;
+}
